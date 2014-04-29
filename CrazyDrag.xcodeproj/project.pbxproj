@@ -1,0 +1,472 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EF910CAC190FBE57003A342C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EF910CAB190FBE57003A342C /* Foundation.framework */; };
+		EF910CAE190FBE57003A342C /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EF910CAD190FBE57003A342C /* CoreGraphics.framework */; };
+		EF910CB0190FBE57003A342C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EF910CAF190FBE57003A342C /* UIKit.framework */; };
+		EF910CB6190FBE57003A342C /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = EF910CB4190FBE57003A342C /* InfoPlist.strings */; };
+		EF910CB8190FBE57003A342C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EF910CB7190FBE57003A342C /* main.m */; };
+		EF910CBC190FBE57003A342C /* CrazyDragAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EF910CBB190FBE57003A342C /* CrazyDragAppDelegate.m */; };
+		EF910CBF190FBE57003A342C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EF910CBD190FBE57003A342C /* Main.storyboard */; };
+		EF910CC2190FBE57003A342C /* CrazyDragViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EF910CC1190FBE57003A342C /* CrazyDragViewController.m */; };
+		EF910CC4190FBE57003A342C /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EF910CC3190FBE57003A342C /* Images.xcassets */; };
+		EF910CCB190FBE57003A342C /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EF910CCA190FBE57003A342C /* XCTest.framework */; };
+		EF910CCC190FBE57003A342C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EF910CAB190FBE57003A342C /* Foundation.framework */; };
+		EF910CCD190FBE57003A342C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EF910CAF190FBE57003A342C /* UIKit.framework */; };
+		EF910CD5190FBE57003A342C /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = EF910CD3190FBE57003A342C /* InfoPlist.strings */; };
+		EF910CD7190FBE57003A342C /* CrazyDragTests.m in Sources */ = {isa = PBXBuildFile; fileRef = EF910CD6190FBE57003A342C /* CrazyDragTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EF910CCE190FBE57003A342C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EF910CA0190FBE57003A342C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EF910CA7190FBE57003A342C;
+			remoteInfo = CrazyDrag;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		EF910CA8190FBE57003A342C /* CrazyDrag.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CrazyDrag.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EF910CAB190FBE57003A342C /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		EF910CAD190FBE57003A342C /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		EF910CAF190FBE57003A342C /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		EF910CB3190FBE57003A342C /* CrazyDrag-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "CrazyDrag-Info.plist"; sourceTree = "<group>"; };
+		EF910CB5190FBE57003A342C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		EF910CB7190FBE57003A342C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		EF910CB9190FBE57003A342C /* CrazyDrag-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CrazyDrag-Prefix.pch"; sourceTree = "<group>"; };
+		EF910CBA190FBE57003A342C /* CrazyDragAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CrazyDragAppDelegate.h; sourceTree = "<group>"; };
+		EF910CBB190FBE57003A342C /* CrazyDragAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CrazyDragAppDelegate.m; sourceTree = "<group>"; };
+		EF910CBE190FBE57003A342C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EF910CC0190FBE57003A342C /* CrazyDragViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CrazyDragViewController.h; sourceTree = "<group>"; };
+		EF910CC1190FBE57003A342C /* CrazyDragViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CrazyDragViewController.m; sourceTree = "<group>"; };
+		EF910CC3190FBE57003A342C /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		EF910CC9190FBE57003A342C /* CrazyDragTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CrazyDragTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EF910CCA190FBE57003A342C /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		EF910CD2190FBE57003A342C /* CrazyDragTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "CrazyDragTests-Info.plist"; sourceTree = "<group>"; };
+		EF910CD4190FBE57003A342C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		EF910CD6190FBE57003A342C /* CrazyDragTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CrazyDragTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EF910CA5190FBE57003A342C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF910CAE190FBE57003A342C /* CoreGraphics.framework in Frameworks */,
+				EF910CB0190FBE57003A342C /* UIKit.framework in Frameworks */,
+				EF910CAC190FBE57003A342C /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF910CC6190FBE57003A342C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF910CCB190FBE57003A342C /* XCTest.framework in Frameworks */,
+				EF910CCD190FBE57003A342C /* UIKit.framework in Frameworks */,
+				EF910CCC190FBE57003A342C /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EF910C9F190FBE57003A342C = {
+			isa = PBXGroup;
+			children = (
+				EF910CB1190FBE57003A342C /* CrazyDrag */,
+				EF910CD0190FBE57003A342C /* CrazyDragTests */,
+				EF910CAA190FBE57003A342C /* Frameworks */,
+				EF910CA9190FBE57003A342C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EF910CA9190FBE57003A342C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EF910CA8190FBE57003A342C /* CrazyDrag.app */,
+				EF910CC9190FBE57003A342C /* CrazyDragTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EF910CAA190FBE57003A342C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				EF910CAB190FBE57003A342C /* Foundation.framework */,
+				EF910CAD190FBE57003A342C /* CoreGraphics.framework */,
+				EF910CAF190FBE57003A342C /* UIKit.framework */,
+				EF910CCA190FBE57003A342C /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		EF910CB1190FBE57003A342C /* CrazyDrag */ = {
+			isa = PBXGroup;
+			children = (
+				EF910CBA190FBE57003A342C /* CrazyDragAppDelegate.h */,
+				EF910CBB190FBE57003A342C /* CrazyDragAppDelegate.m */,
+				EF910CBD190FBE57003A342C /* Main.storyboard */,
+				EF910CC0190FBE57003A342C /* CrazyDragViewController.h */,
+				EF910CC1190FBE57003A342C /* CrazyDragViewController.m */,
+				EF910CC3190FBE57003A342C /* Images.xcassets */,
+				EF910CB2190FBE57003A342C /* Supporting Files */,
+			);
+			path = CrazyDrag;
+			sourceTree = "<group>";
+		};
+		EF910CB2190FBE57003A342C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EF910CB3190FBE57003A342C /* CrazyDrag-Info.plist */,
+				EF910CB4190FBE57003A342C /* InfoPlist.strings */,
+				EF910CB7190FBE57003A342C /* main.m */,
+				EF910CB9190FBE57003A342C /* CrazyDrag-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		EF910CD0190FBE57003A342C /* CrazyDragTests */ = {
+			isa = PBXGroup;
+			children = (
+				EF910CD6190FBE57003A342C /* CrazyDragTests.m */,
+				EF910CD1190FBE57003A342C /* Supporting Files */,
+			);
+			path = CrazyDragTests;
+			sourceTree = "<group>";
+		};
+		EF910CD1190FBE57003A342C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EF910CD2190FBE57003A342C /* CrazyDragTests-Info.plist */,
+				EF910CD3190FBE57003A342C /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EF910CA7190FBE57003A342C /* CrazyDrag */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EF910CDA190FBE57003A342C /* Build configuration list for PBXNativeTarget "CrazyDrag" */;
+			buildPhases = (
+				EF910CA4190FBE57003A342C /* Sources */,
+				EF910CA5190FBE57003A342C /* Frameworks */,
+				EF910CA6190FBE57003A342C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CrazyDrag;
+			productName = CrazyDrag;
+			productReference = EF910CA8190FBE57003A342C /* CrazyDrag.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EF910CC8190FBE57003A342C /* CrazyDragTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EF910CDD190FBE57003A342C /* Build configuration list for PBXNativeTarget "CrazyDragTests" */;
+			buildPhases = (
+				EF910CC5190FBE57003A342C /* Sources */,
+				EF910CC6190FBE57003A342C /* Frameworks */,
+				EF910CC7190FBE57003A342C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EF910CCF190FBE57003A342C /* PBXTargetDependency */,
+			);
+			name = CrazyDragTests;
+			productName = CrazyDragTests;
+			productReference = EF910CC9190FBE57003A342C /* CrazyDragTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EF910CA0190FBE57003A342C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = CrazyDrag;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "___FULLUSERNAME___";
+				TargetAttributes = {
+					EF910CC8190FBE57003A342C = {
+						TestTargetID = EF910CA7190FBE57003A342C;
+					};
+				};
+			};
+			buildConfigurationList = EF910CA3190FBE57003A342C /* Build configuration list for PBXProject "CrazyDrag" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EF910C9F190FBE57003A342C;
+			productRefGroup = EF910CA9190FBE57003A342C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EF910CA7190FBE57003A342C /* CrazyDrag */,
+				EF910CC8190FBE57003A342C /* CrazyDragTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EF910CA6190FBE57003A342C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF910CC4190FBE57003A342C /* Images.xcassets in Resources */,
+				EF910CB6190FBE57003A342C /* InfoPlist.strings in Resources */,
+				EF910CBF190FBE57003A342C /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF910CC7190FBE57003A342C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF910CD5190FBE57003A342C /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EF910CA4190FBE57003A342C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF910CBC190FBE57003A342C /* CrazyDragAppDelegate.m in Sources */,
+				EF910CB8190FBE57003A342C /* main.m in Sources */,
+				EF910CC2190FBE57003A342C /* CrazyDragViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF910CC5190FBE57003A342C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF910CD7190FBE57003A342C /* CrazyDragTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EF910CCF190FBE57003A342C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EF910CA7190FBE57003A342C /* CrazyDrag */;
+			targetProxy = EF910CCE190FBE57003A342C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		EF910CB4190FBE57003A342C /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EF910CB5190FBE57003A342C /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		EF910CBD190FBE57003A342C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EF910CBE190FBE57003A342C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		EF910CD3190FBE57003A342C /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EF910CD4190FBE57003A342C /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EF910CD8190FBE57003A342C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		EF910CD9190FBE57003A342C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EF910CDB190FBE57003A342C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CrazyDrag/CrazyDrag-Prefix.pch";
+				INFOPLIST_FILE = "CrazyDrag/CrazyDrag-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		EF910CDC190FBE57003A342C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CrazyDrag/CrazyDrag-Prefix.pch";
+				INFOPLIST_FILE = "CrazyDrag/CrazyDrag-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		EF910CDE190FBE57003A342C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/CrazyDrag.app/CrazyDrag";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CrazyDrag/CrazyDrag-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "CrazyDragTests/CrazyDragTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		EF910CDF190FBE57003A342C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/CrazyDrag.app/CrazyDrag";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CrazyDrag/CrazyDrag-Prefix.pch";
+				INFOPLIST_FILE = "CrazyDragTests/CrazyDragTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EF910CA3190FBE57003A342C /* Build configuration list for PBXProject "CrazyDrag" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EF910CD8190FBE57003A342C /* Debug */,
+				EF910CD9190FBE57003A342C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EF910CDA190FBE57003A342C /* Build configuration list for PBXNativeTarget "CrazyDrag" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EF910CDB190FBE57003A342C /* Debug */,
+				EF910CDC190FBE57003A342C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		EF910CDD190FBE57003A342C /* Build configuration list for PBXNativeTarget "CrazyDragTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EF910CDE190FBE57003A342C /* Debug */,
+				EF910CDF190FBE57003A342C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EF910CA0190FBE57003A342C /* Project object */;
+}
