@@ -21,6 +21,10 @@
 		EF910CCD190FBE57003A342C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EF910CAF190FBE57003A342C /* UIKit.framework */; };
 		EF910CD5190FBE57003A342C /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = EF910CD3190FBE57003A342C /* InfoPlist.strings */; };
 		EF910CD7190FBE57003A342C /* CrazyDragTests.m in Sources */ = {isa = PBXBuildFile; fileRef = EF910CD6190FBE57003A342C /* CrazyDragTests.m */; };
+		EF910CE319110160003A342C /* CrazyDragAboutViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EF910CE119110160003A342C /* CrazyDragAboutViewController.m */; };
+		EF910CE419110160003A342C /* CrazyDragAboutViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = EF910CE219110160003A342C /* CrazyDragAboutViewController.xib */; };
+		EF910D0419111314003A342C /* BG.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EF910D0319111314003A342C /* BG.jpg */; };
+		EF910D06191117C3003A342C /* Info.html in Resources */ = {isa = PBXBuildFile; fileRef = EF910D05191117C3003A342C /* Info.html */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +57,11 @@
 		EF910CD2190FBE57003A342C /* CrazyDragTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "CrazyDragTests-Info.plist"; sourceTree = "<group>"; };
 		EF910CD4190FBE57003A342C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		EF910CD6190FBE57003A342C /* CrazyDragTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CrazyDragTests.m; sourceTree = "<group>"; };
+		EF910CE019110160003A342C /* CrazyDragAboutViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CrazyDragAboutViewController.h; sourceTree = "<group>"; };
+		EF910CE119110160003A342C /* CrazyDragAboutViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CrazyDragAboutViewController.m; sourceTree = "<group>"; };
+		EF910CE219110160003A342C /* CrazyDragAboutViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CrazyDragAboutViewController.xib; sourceTree = "<group>"; };
+		EF910D0319111314003A342C /* BG.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = BG.jpg; path = ../BG.jpg; sourceTree = "<group>"; };
+		EF910D05191117C3003A342C /* Info.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = Info.html; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -117,8 +126,13 @@
 				EF910CBD190FBE57003A342C /* Main.storyboard */,
 				EF910CC0190FBE57003A342C /* CrazyDragViewController.h */,
 				EF910CC1190FBE57003A342C /* CrazyDragViewController.m */,
+				EF910CE019110160003A342C /* CrazyDragAboutViewController.h */,
+				EF910CE119110160003A342C /* CrazyDragAboutViewController.m */,
+				EF910CE219110160003A342C /* CrazyDragAboutViewController.xib */,
 				EF910CC3190FBE57003A342C /* Images.xcassets */,
+				EF910D0319111314003A342C /* BG.jpg */,
 				EF910CB2190FBE57003A342C /* Supporting Files */,
+				EF910D05191117C3003A342C /* Info.html */,
 			);
 			path = CrazyDrag;
 			sourceTree = "<group>";
@@ -229,6 +243,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EF910D06191117C3003A342C /* Info.html in Resources */,
+				EF910D0419111314003A342C /* BG.jpg in Resources */,
+				EF910CE419110160003A342C /* CrazyDragAboutViewController.xib in Resources */,
 				EF910CC4190FBE57003A342C /* Images.xcassets in Resources */,
 				EF910CB6190FBE57003A342C /* InfoPlist.strings in Resources */,
 				EF910CBF190FBE57003A342C /* Main.storyboard in Resources */,
@@ -252,6 +269,7 @@
 			files = (
 				EF910CBC190FBE57003A342C /* CrazyDragAppDelegate.m in Sources */,
 				EF910CB8190FBE57003A342C /* main.m in Sources */,
+				EF910CE319110160003A342C /* CrazyDragAboutViewController.m in Sources */,
 				EF910CC2190FBE57003A342C /* CrazyDragViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -457,6 +475,7 @@
 				EF910CDC190FBE57003A342C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		EF910CDD190FBE57003A342C /* Build configuration list for PBXNativeTarget "CrazyDragTests" */ = {
 			isa = XCConfigurationList;
@@ -465,6 +484,7 @@
 				EF910CDF190FBE57003A342C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
